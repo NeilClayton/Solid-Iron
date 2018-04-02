@@ -15,14 +15,14 @@ namespace Steel_Iron.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "About Solid Iron";
 
             return View();
         }
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "Talk to Solid Iron";
 
             return View();
         }
